@@ -1,0 +1,16 @@
+Index: user/src/main/java/com/ms/user/services/UserService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/user/src/main/java/com/ms/user/services/UserService.java b/user/src/main/java/com/ms/user/services/UserService.java
+--- a/user/src/main/java/com/ms/user/services/UserService.java	(revision d496ea5199c96cce978e98ea54d7a146a6235718)
++++ b/user/src/main/java/com/ms/user/services/UserService.java	(revision 3902b2e1a43161bdae8a30e1200e239a97ad3c4e)
+@@ -15,6 +15,7 @@
+         this.userRepository = userRepository;
+     }
+ 
++
+     @Transactional
+     public UserModel save(UserModel userModel) {
+         return userRepository.save(userModel);
