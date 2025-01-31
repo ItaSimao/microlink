@@ -18,6 +18,5 @@ public class UserService {
     @Transactional
     public UserModel save(UserModel userModel) {
         return userRepository.save(userModel);
-
     }
 }
